@@ -1,0 +1,44 @@
+[
+  {
+    "id_sumber": 1,
+    "sumber": "BPS - Usaha Makanan Minuman",
+    "metode_akuisisi": "Unduh berkas CSV dari portal BPS",
+    "url": "https://web-api.bps.go.id/download.php?f=bps_usaha_makanan.csv",
+    "tanggal_akses_utc": "2026-11-19T13:27:59.030236+00:00",
+    "lisensi": "BPS Open Data - CC BY 4.0 (atribusi wajib)",
+    "status_http": null,
+    "berkas_mentah": "data/raw/bps_usaha_makanan_minuman.csv",
+    "ukuran_byte": 3047,
+    "md5": "0afa1f8d3f6a4ede3583399b427307d8",
+    "catatan": "120 baris x 4 kolom; data tahunan per provinsi",
+    "waktu_pencatatan": "2026-11-19T13:27:59.030317+00:00"
+  },
+  {
+    "id_sumber": 2,
+    "sumber": "Open-Meteo Historical API",
+    "metode_akuisisi": "API publik (JSON → tabel)",
+    "url": "https://archive-api.open-meteo.com/v1/archive",
+    "tanggal_akses_utc": "2026-11-19T13:27:59.044717+00:00",
+    "lisensi": "CC BY 4.0 — https://open-meteo.com/en/license",
+    "status_http": 200,
+    "berkas_mentah": "data/raw/api/openmeteo_bali.csv",
+    "ukuran_byte": 52240,
+    "md5": "7b72b4a4f231f6c159a2f4c14492ee84",
+    "catatan": "1098 baris; 3 kota Bali; 2024-01-01–2024-12-31",
+    "waktu_pencatatan": "2026-11-19T13:28:07.014956+00:00"
+  },
+  {
+    "id_sumber": 3,
+    "sumber": "Wikipedia ID - Masakan Bali",
+    "metode_akuisisi": "Web scraping (pd.read_html) setelah cek robots.txt",
+    "url": "https://id.wikipedia.org/wiki/Masakan_Bali",
+    "tanggal_akses_utc": "2026-11-19T13:28:11.508595+00:00",
+    "lisensi": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+    "status_http": 200,
+    "berkas_mentah": "data/raw/scrape/wikipedia_masakan_bali.csv",
+    "ukuran_byte": 42112,
+    "md5": "ef4f9a6b74efc9fcf43deaca228f2696",
+    "catatan": "75 baris x 4 kolom; robots.txt izin: True",
+    "waktu_pencatatan": "2026-11-19T13:28:11.508748+00:00"
+  }
+]
